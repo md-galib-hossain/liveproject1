@@ -8,7 +8,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .bannerContainer {
-  background-image: url(https://mdgalibhossain1.github.io/liveproject1/bg1.jpg);
+  background-image: url(/images/bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
