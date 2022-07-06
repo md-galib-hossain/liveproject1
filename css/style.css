@@ -1,0 +1,194 @@
+/*body{
+    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", sans-serif;
+}*/
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.bannerContainer {
+  background-image: url(/images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bannerElements {
+  padding: 90px 280px 141px;
+  text-align: center;
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+.bannerElements h1 {
+  font-size: 50px;
+  line-height: 20px;
+  color: white;
+}
+.bannerElements p {
+  margin-bottom: 50px;
+  color: white;
+}
+.donateButton {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5959;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 9px 18px;
+}
+.donatetodayCont {
+  text-align: center;
+  padding: 20px 260px;
+  margin-top: 60px;
+}
+.flexMoney {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+.flexMoney a {
+  font-size: 25px;
+  width: 120px;
+  line-height: 105px;
+  text-align: center;
+  margin: auto;
+  color: #707070;
+  font-weight: 600;
+  text-decoration: none;
+
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+#fastMoney {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+#lastMoney {
+  margin-right: 0px;
+}
+#hoverColor {
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  background-color: #ffeeee;
+}
+/*  [face bug by this hover ,need to solve later]
+.flexMoney a:hover {
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  background-color: #ffeeee;
+}*/
+.donatetodayCont input {
+  border: none;
+  border-bottom: 1px solid #b3b3b3;
+  text-align: center;
+  margin: 0 auto 25px;
+  color: #b3b3b3;
+  display: block;
+}
+.donatetodayCont p {
+  margin-bottom: 40px;
+  color: #707070;
+}
+.donateButton {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: #ff5959;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 9px 18px;
+}
+.donateText {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 20px 260px;
+  margin-top: 60px;
+}
+
+.cards {
+  display: flex;
+  padding: 50px 50px;
+  margin-bottom: 60px;
+}
+#cardOne {
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+  padding: 50px 20px;
+  margin: auto;
+  background-color: rgba(79, 157, 166, 0.1);
+}
+#cardTwo {
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+  padding: 50px 20px;
+  margin: auto;
+  background-color: rgba(255, 89, 89, 0.1);
+}
+#cardThree {
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+  padding: 50px 20px;
+  margin: auto;
+  background-color: #fff4d6;
+}
+.contributeCon {
+  display: flex;
+}
+.halfWidth {
+  width: 50%;
+  padding: 30px 70px;
+}
+#lastPara {
+  margin-bottom: 40px;
+}
+
+.halfWidth img {
+  width: 80%;
+}
+.simpleGallery {
+  width: 100%;
+}
+.simpleGallery h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.galleryImg {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 79.5px;
+}
+.galleryImg img {
+  width: 22%;
+  margin-right: 20px;
+}
+.updateCon {
+  text-align: center;
+  margin-top: 90px;
+}
+.updateCon p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 20px 260px;
+  margin-top: 60px;
+}
+
+.email {
+  width: 40%;
+  margin: 30px auto;
+  padding: 50px 50px;
+  background-color: #fff4d6;
+}
+footer {
+  background-color: black;
+
+  padding: 40px 40px;
+  text-align: center;
+}
+footer h3 {
+  font-family: "Lobster", cursive;
+
+  color: #ff5959;
+}
+footer p {
+  color: #707070;
+}
